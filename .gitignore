@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# this file
+.gitignore
+
+# eslint
+.eslintrc
+
+# README
+README.md
