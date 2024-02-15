@@ -1,0 +1,101 @@
+.news {
+  position: absolute;
+  width: 50vw;
+  top: 80px;
+  left: calc(50% - 25vw);
+
+  .news-card {
+    .news-card-flex {
+      display: flex;
+
+      .news-card-image {
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+
+      .news-card-text-container {
+        margin-left: 10px;
+
+        .news-card-title {
+          border-radius: 10px;
+          height: 100px;
+          width: 220px;
+          display: flex;
+          transition: 1s;
+
+          .news-card-title-text {
+            text-wrap: balance;
+            margin-left: 5px;
+            font-size: 150%;
+          }
+        }
+
+        .news-card-text {
+          text-wrap: balance;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .news-card-reactions {
+      display: flex;
+      margin-top: 30px;
+      width: 50vw;
+      height: 50px;
+      transition: 1s;
+      opacity: 0;
+
+      :nth-child(1 of .face) {
+        translate: -15px 0;
+      }
+
+      :nth-child(2 of .face) {
+        translate: -80px -3px;
+      }
+
+      :nth-child(3 of .face) {
+        translate: -145px -3px;
+      }
+
+      .reaction-container {
+        margin-right: 15px;
+
+        .reaction {
+          width: 99px;
+          height: 50px;
+          cursor: pointer;
+
+          &.small {
+            width: 32px;
+            height: 32px;
+          }
+        }
+
+        .water-drop {
+          background-color: #006aff;
+          width: 13px;
+          height: 13px;
+          border-radius: 0 50% 50% 50%;
+          rotate: 43deg;
+          translate: 20px -85px;
+          z-index: 1;
+        }
+
+        :nth-child(2 of canvas) {
+          translate: 27px -51px;
+        }
+
+        &.last {
+          translate: -280px 1px;
+        }
+      }
+    }
+
+    .like-reaction {
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+    }
+  }
+}

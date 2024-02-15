@@ -1,0 +1,11 @@
+html {
+  width: 100%;
+  height: 110%;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
