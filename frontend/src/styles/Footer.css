@@ -1,10 +1,10 @@
 footer {
-  width: 100vw;
+  width: 105vw;
   height: 50px;
   color: #fff;
-  background-color: #006aff;
-  position: absolute;
-  bottom: -150px;
+  background-image: linear-gradient(to left, #00AAF7, #004387);
+  position: fixed;
+  bottom: 0;
   left: -9px;
   right: 0;
   display: flex;

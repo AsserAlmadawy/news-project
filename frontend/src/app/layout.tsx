@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 const acme: NextFont = Acme({ subsets: ["latin"], display: "swap", weight: "400" });
 
 export const metadata: Metadata = {
-  title: "News",
+  title: "Ocean News",
   description: "A news website",
   viewport: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
   authors: [
@@ -29,7 +29,7 @@ const RootLayout: React.FC<RootLayoutProps> = (props: RootLayoutProps) => (
     </head>
     <body className={acme.className}>
       <Header />
-      {props.children}
+        {props.children}
       <Footer />
     </body>
   </html>

@@ -1,0 +1,20 @@
+svg {
+  position: fixed;
+  cursor: pointer;
+
+  &:not(.circle) {
+    z-index: 2;
+    bottom: 70px;
+    right: -4.5%;
+    width: 15vw;
+    height: 30px;
+  }
+
+  &.circle {
+    bottom: 60px;
+    right: -12%;
+    z-index: 1;
+    width: 30vw;
+    height: 50px;
+  }
+}

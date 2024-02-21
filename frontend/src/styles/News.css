@@ -96,6 +96,9 @@
       width: 35px;
       height: 35px;
       cursor: pointer;
+      position: absolute;
+      left: 10px;
+      bottom: 0;
     }
   }
 }

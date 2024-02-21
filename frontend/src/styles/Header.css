@@ -1,7 +1,7 @@
 header {
   width: 100vw;
   height: 50px;
-  background-color: #006aff;
+  background-image: linear-gradient(to left, #00AAF7, #004387);
   position: fixed;
   top: 0;
   left: 0;
